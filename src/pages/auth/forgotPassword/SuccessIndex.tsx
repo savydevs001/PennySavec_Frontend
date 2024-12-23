@@ -8,7 +8,7 @@ const SuccessIndex = () => {
         <img src={unlock} alt="Penny Logo" className="w-[400px]" />
         <h1 className='text-2xl font-black text-primary-100'> Password changed</h1>
         <p className='text-xl font-light text-white'>All done, Write your new password and login.</p>
-        <Link to='/signup' className='bg-primary-100 font-black text-black w-32 h-12 rounded-full flex items-center justify-center'>Signup</Link>
+        <Link to='/login' className='bg-primary-100 font-black text-black w-32 h-12 rounded-full flex items-center justify-center'>Login</Link>
       </div> 
   )
 }
